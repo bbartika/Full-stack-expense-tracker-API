@@ -54,7 +54,7 @@ exports.editExpense = (req, res, next) => {
   const description = req.body.description;
   const amount = req.body.amount;
   console.log(
-    "controller main enter kar gya or yeh rhii values : ",
+    "controller values: ",
     id,
     category,
     description,
